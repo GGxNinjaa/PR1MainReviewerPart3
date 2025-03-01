@@ -80,8 +80,8 @@ body, html {
     }
 
     .fullscreen img {
-        width: 70%;
-        height: auto;
+        width: 50%;
+        height: 50%;
         object-fit: contain; /* Ensure the entire image fits within the container */
     }
 }
