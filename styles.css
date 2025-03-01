@@ -52,8 +52,8 @@ body, html {
 }
 
 .fullscreen img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 80%; /* Set a maximum width to ensure the image is smaller */
+    max-height: 80%; /* Set a maximum height to ensure the image is smaller */
     object-fit: contain; /* Ensure the entire image fits within the container */
     object-position: center; /* Center the image horizontally and vertically */
     margin: auto; /* Center the image */
@@ -85,8 +85,8 @@ body, html {
     }
 
     .fullscreen img {
-        max-width: 100%;
-        max-height: 100%;
+        max-width: 80%; /* Ensure the image is smaller on mobile */
+        max-height: 80%; /* Ensure the image is smaller on mobile */
         object-fit: contain; /* Ensure the entire image fits within the container */
         object-position: center; /* Center the image horizontally and vertically */
         margin: auto; /* Center the image */
