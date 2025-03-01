@@ -11,6 +11,9 @@ body, html {
     margin: 20px 0;
     width: 100%; /* Ensure the container fits within the screen width */
     max-width: 600px; /* Limit the maximum width for better appearance on larger screens */
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap within the container */
+    justify-content: center; /* Center buttons within the container */
 }
 
 .img-button {
@@ -53,6 +56,7 @@ body, html {
     max-height: 100%;
     object-fit: contain; /* Ensure the entire image fits within the container */
     object-position: center; /* Center the image horizontally and vertically */
+    margin: auto; /* Center the image */
 }
 
 .next {
@@ -85,5 +89,6 @@ body, html {
         max-height: 100%;
         object-fit: contain; /* Ensure the entire image fits within the container */
         object-position: center; /* Center the image horizontally and vertically */
+        margin: auto; /* Center the image */
     }
 }
